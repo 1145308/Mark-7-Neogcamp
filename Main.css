@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap');
+
+:root{
+    --yellow-color:  rgb(100, 197, 230);
+}
+
+body{
+    background-image: url(/images/Dolan-Duck-PNG-Picture.png);
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-size: 27% 79%;
+    margin: 0;
+    font-family: 'Grape Nuts', cursive;
+    }
+    
+textarea{
+      width:  50%;
+      height: 15vh;
+      display: block;
+      border: solid black 1.5px;
+      margin: auto;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+#output {
+      border: 1px solid black;
+      height: 10vh;
+      width:  50%;
+      padding: 1rem;
+      margin: auto;
+    }
+
+.nav{
+        height: 11vh;
+        background-color: var(--yellow-color);
+        
+    }
+.nav-heading{
+        text-align: center;
+        text-size-adjust: 90px;
+        margin: 0;
+        font-size: 30px;
+        padding: 1rem 0;
+        
+    }
+    
+    
+.btn-div{
+        display: block;
+        margin: auto;
+        width: 50%;
+        
+        
+    }
+.output-header{
+        margin-top: 5px;
+        margin-bottom: 0.5rem;
+        
+    }
+    
+.output-text{
+        margin-top: 1.5rem;
+        background-color: var(--yellow-color);
+        padding: 1rem 3rem;
+        cursor: pointer;
+        
+    }
+    
+.footer{
+        margin-top: 5.5rem;
+        background-color: var(--yellow-color);
+        height: 25vh;
+       
+    }
+    
+.footer .footer-heading{
+        text-align: center;
+        padding-top: 0.5rem;
+        margin-bottom: 0;
+        
+        
+    }
+
+.footer-para{
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        max-width: 500px;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        color: white;
+        }
